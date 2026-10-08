@@ -1,0 +1,14 @@
+.git
+.github
+.venv
+__pycache__
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache
+mlruns
+mlflow.db
+optuna.db
+.ipynb_checkpoints
+data/raw/*
+!data/raw/.gitkeep

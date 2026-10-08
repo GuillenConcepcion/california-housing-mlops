@@ -1,0 +1,71 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# MLflow runs and database
+mlruns/
+mlflow.db
+
+# Optuna storage
+optuna.db
+
+# Model artifacts
+models/*.pkl
+models/*.joblib
+models/*.onnx
+
+# Data files (permitir datasets canónicos ligeros < 2MB)
+data/raw/*
+!data/raw/.gitkeep
+!data/raw/housing.csv
+!data/raw/california_housing_sample.csv
+data/processed/*
+!data/processed/.gitkeep
+data/golden/*
+!data/golden/.gitkeep
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# IDE settings
+.vscode/
+.idea/
+*.swp
+*.swo
